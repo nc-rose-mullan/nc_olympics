@@ -1,0 +1,26 @@
+ [
+    {
+        "athlete_name": "RoRo",
+        "athlete_bio": "a cool girl",
+        "years_competing": 3,
+        "event_id": 4
+    },
+    {
+        "athlete_name": "Haz",
+        "athlete_bio": "loves to game",
+        "years_competing": 9,
+        "event_id": 1
+    },
+    {
+        "athlete_name": "Eli",
+        "athlete_bio": "Spicy Eelz",
+        "years_competing": 13,
+        "event_id": 2
+    },
+    {
+        "athlete_name": "Liam",
+        "athlete_bio": "mathlete",
+        "years_competing": 6,
+        "event_id": 1
+    }
+]
