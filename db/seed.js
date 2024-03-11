@@ -1,5 +1,6 @@
 const db = require('./connection.js');
 const format = require("pg-format")
+const {createRef, formatAthletesData} = require('./utils/seed-utils.js')
 
 const seed = ({athletesData, eventsData, medalsData}) => { 
     return db.query('DROP TABLE IF EXISTS athletes;').then(() => {
@@ -26,8 +27,12 @@ const seed = ({athletesData, eventsData, medalsData}) => {
             formattedEvents)
         return db.query(inserteventsQueryString)
     }).then(({ rows }) => { 
-        console.log(rows)
-        // how are we going to give each snack a category id?
+        const eventsRef = createRef(rows)
+        const formattedAthletes = formatAthletesData(athletesData, eventsRef)
+        
+        const insertAthletesQueryString = format(`INSERT INTO athletes (athlete_name, athlete_bio, years_competing, event_id) VALUES %L`, formattedAthletes)
+        
+        return db.query(insertAthletesQueryString)
     })
 };
 
