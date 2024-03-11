@@ -1,26 +1,39 @@
  [
     {
         "athlete_name": "RoRo",
-        "athlete_bio": "a cool girl",
+        "athlete_bio": "A cool girl",
         "years_competing": 3,
-        "event_id": 4
+        "event": "Programming: Singles"
     },
     {
         "athlete_name": "Haz",
-        "athlete_bio": "loves to game",
+        "athlete_bio": "Loves to game",
         "years_competing": 9,
-        "event_id": 1
+        "event": "Skipping"
     },
     {
         "athlete_name": "Eli",
         "athlete_bio": "Spicy Eelz",
         "years_competing": 13,
-        "event_id": 2
+        "event": "Standing Long Jump"
     },
     {
         "athlete_name": "Liam",
-        "athlete_bio": "mathlete",
+        "athlete_bio": "Mathlete",
         "years_competing": 6,
-        "event_id": 1
+        "event": "Programming: Doubles"
+    },
+    {
+        "athlete_name": "Stephen",
+        "athlete_bio": "Professional Dog Dad",
+        "years_competing": 4,
+        "event": "Programming: Doubles"
+    },
+    {
+        "athlete_name": "Baines",
+        "athlete_bio": "Knows how to throw down",
+        "years_competing": 14,
+        "event": "Tiddlywinks"
     }
+
 ]
