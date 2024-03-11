@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": "psql -f db/seed.sql"
+    "seed": "PGDATABASE=nc_snacks node db/run-seed.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/nc-rose-mullan/nc_olympics#readme",
   "dependencies": {
     "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "pg-format": "^1.0.4"
   }
 }
