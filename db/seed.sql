@@ -20,7 +20,7 @@ VALUES
 CREATE TABLE athletes(
   athlete_id SERIAL PRIMARY KEY,
   athlete_name VARCHAR(100),
-  athlete_bio VARCHAR(100),
+  athlete_bio VARCHAR,
   years_competing INT,
   event_id INT REFERENCES events(event_id) 
 );
