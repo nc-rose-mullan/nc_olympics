@@ -1,26 +1,26 @@
  [
     {
-        "athlete_name": "RoRo",
-        "athlete_bio": "a cool girl",
-        "years_competing": 3,
-        "event_id": 4
+        "athlete_name": "Athlete A",
+        "athlete_bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in metus et erat fermentum laoreet nec vel libero. Fusce ullamcorper justo sit amet orci varius, in tristique nisl tincidunt.",
+        "years_competing": 11,
+        "event": "Event D"
     },
     {
-        "athlete_name": "Haz",
-        "athlete_bio": "loves to game",
-        "years_competing": 9,
-        "event_id": 1
+        "athlete_name": "Athlete B",
+        "athlete_bio": "Curabitur gravida, augue id bibendum vestibulum, eros ipsum malesuada massa, in volutpat leo elit sed libero. Proin scelerisque eleifend lectus, vel tincidunt justo finibus in.",
+        "years_competing": 2,
+        "event": "Event C"
     },
     {
-        "athlete_name": "Eli",
-        "athlete_bio": "Spicy Eelz",
-        "years_competing": 13,
-        "event_id": 2
+        "athlete_name": "Athlete D",
+        "athlete_bio": "Sed interdum justo ac velit tincidunt, auctor blandit mauris auctor. Vivamus in quam eu quam imperdiet lacinia eu eget justo.",
+        "years_competing": 1,
+        "event": "Event C"
     },
     {
-        "athlete_name": "Liam",
-        "athlete_bio": "mathlete",
+        "athlete_name": "Athlete C",
+        "athlete_bio": "Quisque tincidunt, mauris eu fringilla accumsan, elit purus hendrerit lacus, vitae efficitur odio felis nec metus. Praesent lobortis, dolor vitae varius pellentesque, sem ligula tincidunt justo.",
         "years_competing": 6,
-        "event_id": 1
+        "event": "Event B"
     }
 ]

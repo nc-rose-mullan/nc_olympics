@@ -1,7 +1,5 @@
 [
-    { "medal_type": "Bronze" },
-    { "medal_type": "Silver" },
-    { "medal_type": "Gold" },
-    { "medal_type": "Participation" },
-    { "medal_type": "Chocolate" }
+    { "medal_type": "Type A" },
+    { "medal_type": "Type B" },
+    { "medal_type": "Type C" }
 ]
