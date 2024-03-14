@@ -1,8 +1,6 @@
 [
- { "event_name": "Tiddlywinks"},
- { "event_name": "Hammerthrow"},
- { "event_name": "Skipping"},
- { "event_name": "Programming: Singles"},
- { "event_name": "Programming: Doubles"},
- { "event_name": "Standing Long Jump"}
+ { "event_name": "Event A"},
+ { "event_name": "Event B"},
+ { "event_name": "Event C"},
+ { "event_name": "Event D"}
 ]
